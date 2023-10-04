@@ -6,6 +6,8 @@ import { skillsData } from "@/lib/data";
 import { skillsSet } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+import Image from 'next/image';
+
 
 const fadeInAnimationVariants = {
   initial: {
@@ -54,7 +56,12 @@ const Skills = () => {
             custom={index}
           ><>
           <div className="flex items-center justify-center h-full mb-2 ">
-          <img src={item.image} alt="" height='50px' width='50px'/>
+          <Image
+    src={item.image}
+    alt=""
+    height={50}
+    width={50}
+  />
           </div>
           
           <p className="mt-auto text-xs text-gray-800 ">{item.skill}</p>

@@ -10,3 +10,4 @@ npm install react-icons
 npm i react-vertical-timeline-component
 
 npm i react-simple-typewriter
+

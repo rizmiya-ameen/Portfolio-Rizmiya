@@ -30,7 +30,7 @@ export default function About() {
 
         <div className="flex-[2] text-justify sm:mx-20 sm:text-lg ">
           <p className="text-xl leading-[80px]">Hi, I&apos;m <span className="font-bold underline decoration-sky-500 text-xl">Fathima Rizmiya</span></p>
-          <p className="mb-3">With a background in chemistry and a passion for education, I've spent the last 7 years nurturing students' curiosity and igniting their love for science. Recently, I ventured into the world of technology, through the Victoria Digital Jobs Program. What I enjoy most about programming is the thrill of problem-solving.
+          <p className="mb-3">With a background in chemistry and a passion for education, I&apos;ve spent the last 7 years nurturing students&apos; curiosity and igniting their love for science. Recently, I ventured into the world of technology, through the Victoria Digital Jobs Program. What I enjoy most about programming is the thrill of problem-solving.
           <br />
           Beyond my career, I find solace in nature and cherish moments with my family.</p>
 
