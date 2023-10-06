@@ -7,7 +7,7 @@ import { useSectionInView } from "@/lib/hooks";
 
 const Education = () => {
 
-  const { ref } = useSectionInView("Resume");
+  const { ref } = useSectionInView("Resume", 0.4);
 
   return (
     <section id="resume" ref={ref} className="px-5 sm:px-28 leading-7 py-28 min-h-[100vh] text-center">

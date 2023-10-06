@@ -8,7 +8,7 @@ import { HiDownload } from 'react-icons/hi'
 
 export default function About() {
 
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("About", 0.4);
 
   return (
 
@@ -32,7 +32,7 @@ export default function About() {
         <div className="flex-[2] text-justify sm:mx-20 sm:text-lg">
 
           <p className="text-xl leading-[80px]">
-            Hi, I&apos;m 
+            Hi, I&apos;m{" "}
             <span className="font-bold underline decoration-sky-500 text-xl">
               Fathima Rizmiya
             </span>

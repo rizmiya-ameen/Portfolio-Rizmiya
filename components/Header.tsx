@@ -15,8 +15,13 @@ export default function Header() {
     <header className="z-[999] flex px-5 py-2 items-center leading-[0.2rem] justify-between fixed  top-0 left-0 right-0 h-[3.8rem] bg-white bg-opacity-90 "> 
 
         <div className="sm:flex hidden">
-          <p className="font-dancing text-3xl font-extrabold bg-gradient-to-r from-cyan-500 to-indigo-500 text-transparent bg-clip-text">
-            &lt;Rizmiya /&gt;</p>
+          <a
+          className='transition duration-200 ease-in-out'
+          href="#home"
+          >
+            <p className="font-dancing text-3xl font-extrabold bg-gradient-to-r from-cyan-500 to-indigo-500 text-transparent bg-clip-text">
+              &lt;Rizmiya /&gt;</p>
+          </a>
         </div>
 
         <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.7rem] sm:text-[0.9rem] font-medium text-black sm:w-[initial] sm:flex-nowrap sm:gap-3">
