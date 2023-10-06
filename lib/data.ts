@@ -48,7 +48,7 @@ export const experiencesData = [
     //date: "2019",
   },
   {
-    title: "Temoporary lecturer",
+    title: "Temporary Lecturer",
     location: "Uva Wellassa University, SL / 2016 - 2018",
     description:
       "Delivered weekly lectures, conducted practical sessions and mentored students at all levels.",
@@ -80,20 +80,20 @@ export const educationsData = [
     title: "Bachelor of Science (Hons)",
     location: "University of Peradeniya, SL / 2011 - 2015",
     description:
-      "Completed a full-time, 4-year program with a major in Chemistry and a minor in Computer Science.",
+      "Completed a full-time, 4-year program with major in Chemistry and minor in Computer Science.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
 ] as const;
 
 export const projectsData = [
-  {
+  /*{
     title: "Bookolog",
     description:
       "This empowers users to delve into a rich library of books. Also, it enables users to seamlessly exchange, lend, and borrow books with like-minded enthusiasts",
     tags: ["NextJS", "React", "tailwind", "SQL", "Docker",],
     imageUrl: "",
-  },
+  },*/
   {
     title: "Book Worm",
     description:
@@ -144,63 +144,63 @@ export const projectsData = [
 export const skillsSet = [
   {
     skill:"HTML5",
-    image: "html-5.png"
+    image: "/html-5.png"
   },
   {
     skill:"CSS3",
-    image: "css-3.png"
+    image: "/css-3.png"
   },
   {
     skill:"JavaScript",
-    image: "js.png"
+    image: "/js.png"
   },
   {
     skill:"TypeScript",
-    image: "typescript.png"
+    image: "/typescript.png"
   },
   {
     skill:"React",
-    image: "react.png"
+    image: "/react.png"
   },
   {
     skill:"Next.js",
-    image:"Nextjs.png"
+    image:"/Nextjs.png"
   },
   {
     skill:"Tailwind CSS",
-    image:"tailwindcss.svg"
+    image:"/tailwindcss.svg"
   },
   {
     skill:"MUI",
-    image:"MUI.png"
+    image:"/MUI.png"
   },
   {
     skill:"Docker",
-    image:"docker.png"
+    image:"/docker.png"
   },
   {
     skill:"Framer Motion",
-    image:"framer-motion.png"
+    image:"/framer-motion.png"
   },
   {
     skill:"VS Code",
-    image:"VSCode.png"
+    image:"/VSCode.png"
   },
   {
     skill:"GitHub",
-    image:"github.png"
+    image:"/github.png"
   },
   {
     skill:"Figma",
-    image:"figma.png"
+    image:"/figma.png"
   },
   {
     skill:"Vercel",
-    image:"vercel.svg"
+    image:"/vercel.svg"
   },
   {
     skill:"Surge",
-    image:"surge-logo.svg"
+    image:"/surge-logo.svg"
   },
 ] as const;
 

@@ -12,3 +12,15 @@ html {
 }
 */
 
+.borderBlack {
+  @apply border border-black/10;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+

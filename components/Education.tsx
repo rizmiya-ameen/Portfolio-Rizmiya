@@ -4,14 +4,13 @@ import React from "react";
 import SectionHeading from "./SectionHeading";
 import { experiencesData, educationsData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
-import { motion } from "framer-motion";
 
 const Education = () => {
 
   const { ref } = useSectionInView("Resume");
 
   return (
-    <section id="resume" ref={ref} className="px-5 sm:px-28 mb-28 leading-7 pt-28 min-h-[100vh] text-center">
+    <section id="resume" ref={ref} className="px-5 sm:px-28 leading-7 py-28 min-h-[100vh] text-center">
 
       <div className="relative">
         <SectionHeading>Summary</SectionHeading>
@@ -33,8 +32,8 @@ const Education = () => {
                 key={index}
               >
                 
-                <h3 className="font-semibold capitalize text-lg text-sky-600">{item.title}</h3>
-                <p className="font-normal !mt-0 mb-5 text-[16px]">{item.location}</p>
+                <h3 className="font-semibold text-lg text-sky-600">{item.title}</h3>
+                <p className="font-medium !mt-0 mb-5 text-[16px]">{item.location}</p>
                 <p className="!mt-1 !font-normal text-gray-600 text-sm">
                   {item.description}
                 </p>
@@ -58,7 +57,7 @@ const Education = () => {
               >
                 
                 <h3 className="font-semibold capitalize text-lg text-sky-600">{item.title}</h3>
-                <p className="font-normal !mt-0 mb-5 text-[16px]">{item.location}</p>
+                <p className="font-medium !mt-0 mb-5 text-[16px]">{item.location}</p>
                 <p className="!mt-1 !font-normal text-gray-600 text-sm">
                   {item.description}
                 </p>
