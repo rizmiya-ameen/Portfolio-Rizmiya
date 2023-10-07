@@ -153,7 +153,7 @@ const Intro = () => {
       </div>
 
 
-      <div className='flex flex-col items-center justify-center'>
+      <div className='flex flex-col items-center justify-center sm:pb-0 pb-3'>
         <Link href='#about'>
         <motion.img
           variants={fadeIn}

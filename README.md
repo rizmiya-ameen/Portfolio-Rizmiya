@@ -1,37 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rizmiya's Portfolio Website
 
-## Getting Started
+Welcome to my portfolio website built using React & Next.js (with App Router), TypeScript, Tailwind CSS, Framer Motion, and hosted on Vercel.
 
-First, run the development server:
+![Screenshot](screenshot.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This portfolio website showcases my projects, skills, and experience in web development. It's built with modern web technologies to provide a smooth and engaging user experience.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- React & Next.js (App Router)
 
-## Learn More
+- TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+- Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Framer Motion: Framer Motion is used to add animations and transitions, enhancing the user interface.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Resend: Resend is integrated to handle email functionality for the contact form on the website.
 
-## Deploy on Vercel
+- Vercel Hosting: The website is hosted on Vercel, ensuring fast and reliable performance.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-https://rizmiya-portfolio.vercel.app/
+- Responsive design to ensure a seamless experience across different devices.
+- A clean and modern user interface.
+- Integration of animations using Framer Motion.
+- Hosting on Vercel for fast and reliable performance.
+
+## Live Demo
+
+You can view the live version of the website here: [Rizmiya's Portfolio](https://rizmiya-portfolio.vercel.app/)
+
